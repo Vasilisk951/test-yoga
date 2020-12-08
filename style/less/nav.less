@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.social {display: flex;}
+.social a {
+	display: block;
+	width: 48px;
+	height: 48px;
+    text-align: center;
+    margin: auto 0;
+	color: #000;
+	background: #fff;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+}
+.social a:hover {color: #fff;}
+.social svg {
+	margin-top: 7px;
+	width: 32px;
+	height: 32px;
+}
+.facebook a:hover {background: #3b5998;}
+.instagram a:hover {background: #3f729b;}
+.vk a:hover {background: #4a76a8;}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    line-height: 70px;
+    padding: 0 40px;
+    background-color: black;
+    .address {
+        margin: auto 0;
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-style: normal;
+        }
+        a:hover {
+            color: papayawhip;
+        }
+    }
+    .link {
+        display: flex;
+        .instagram {
+            margin: 0 10px;
+        }
+        address {
+            display: flex;
+            padding: 0 20px 0 0;
+            a {
+                margin: auto 0;
+                color: #fff;
+                text-decoration: none;
+                font-style: normal
+            }
+            a:hover {
+                color: papayawhip;
+            }
+        }    
+    }
+}
+nav {
+    margin: 0 0 30px 0;
+    .head {
+        text-align: center;
+        padding: 30px 0;
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+    .nav {
+        ul {
+            margin: 0;
+            padding: 0;
+             display: flex;
+             justify-content: center;
+            li {
+                margin: 0 1%;
+                list-style-type: none;
+                display: inline-block;
+                text-transform: uppercase;
+                font-size: 14px;
+                position: relative;
+                .nav-list {
+                    display: inline;
+                    vertical-align: baseline;
+                    margin-left: 6px;
+                    position: relative;
+                    border-color: inherit;
+                }
+                .nav-list::after {
+                    content: ' ';
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 4px 3px 0 3px;
+                    position: absolute;
+                    top: 45%;
+                    left: 0;
+                    -moz-transform: translateY(-50%);
+                    -ms-transform: translateY(-50%);
+                    -webkit-transform: translateY(-50%);
+                    -o-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    border-color: transparent transparent transparent transparent;
+                    border-top-color: inherit;
+                }
+            }
+        }
+    }
+}
+.video-fon {
+    iframe {
+        autoplay: 0;
+    }
+}
