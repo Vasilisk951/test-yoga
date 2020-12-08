@@ -135,3 +135,6 @@ nav .nav ul li .nav-list::after {
   border-color: transparent transparent transparent transparent;
   border-top-color: inherit;
 }
+.video-fon iframe {
+  autoplay: 0;
+}
