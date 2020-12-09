@@ -142,7 +142,7 @@ nav .nav ul li .nav-list::after {
 }
 .about .about-logo .about-line {
   position: relative;
-  width: 980px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 .about .about-logo .about-line .about-text-logo {
@@ -152,7 +152,7 @@ nav .nav ul li .nav-list::after {
   z-index: 2;
   position: absolute;
   top: -21px;
-  left: 440px;
+  left: 530px;
   border: solid #fff;
   width: 100px;
   background-color: black;
@@ -168,7 +168,8 @@ nav .nav ul li .nav-list::after {
   color: #fff;
 }
 .about .about-logo .about-line .about-text-bot {
-  margin: 50px 0 0 0;
+  margin: 50px auto 0 auto;
+  max-width: 940px;
   font-weight: 300;
   text-align: center;
 }
