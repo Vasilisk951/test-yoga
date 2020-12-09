@@ -173,3 +173,78 @@ nav .nav ul li .nav-list::after {
   font-weight: 300;
   text-align: center;
 }
+.about .about-main {
+  width: 1160px;
+  margin: 50px auto 0;
+}
+.about .about-main .about-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.about .about-main .about-item .about-content {
+  width: 50%;
+  height: 310px;
+  background-color: blanchedalmond;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.about .about-main .about-item .about-content .about-content-text {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.about .about-main .about-item .about-content .about-content-trio {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 25px;
+  border-color: transparent transparent transparent  blanchedalmond;
+  position: absolute;
+  top: 130px;
+  left: 50%;
+}
+.about .about-main .about-item .about-content .about-content-img {
+  background-repeat: no-repeat;
+  background-size: 110%;
+  width: 50%;
+}
+.about .about-main .about-item .about-content .chair {
+  background-image: url(../../images/homepage/chair.jpg);
+  background-position: 0 65%;
+}
+.about .about-main .about-item .about-content .women {
+  background-image: url(../../images/homepage/women.jpg);
+  background-position: 0 60%;
+}
+.about .about-main .about-item .about-content .glass {
+  background-image: url(../../images/homepage/glass.jpg);
+  background-position: 0 30%;
+}
+.about .about-main .about-item .about-content .nirvana {
+  background-image: url(../../images/homepage/nirvana.jpg);
+  background-position: 0 70%;
+}
+.about .about-main .about-item .about-content-revers {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+.about .about-main .about-item .about-content-revers .about-content-trio {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 25px 25px 0;
+  border-color: transparent  blanchedalmond transparent transparent;
+  top: 130px;
+  left: 265px;
+}
