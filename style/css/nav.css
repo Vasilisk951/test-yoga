@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Montserrat' sans-serif;
+  font-family: Montserrat sans-serif;
   font-weight: 300;
   letter-spacing: 1.5px;
 }
@@ -54,6 +54,7 @@ header {
   line-height: 70px;
   padding: 0 40px;
   background-color: black;
+  font-family: Montserrat;
 }
 header .address {
   margin: auto 0;
@@ -62,6 +63,7 @@ header .address a {
   color: #fff;
   text-decoration: none;
   font-style: normal;
+  font-size: 14px;
 }
 header .address a:hover {
   color: papayawhip;
@@ -85,6 +87,7 @@ header .link address a {
   color: #fff;
   text-decoration: none;
   font-style: normal;
+  font-size: 14px;
 }
 header .link address a:hover {
   color: papayawhip;
@@ -115,6 +118,7 @@ nav .nav ul li {
   text-transform: uppercase;
   font-size: 14px;
   position: relative;
+  font-family: Montserrat;
 }
 nav .nav ul li .nav-list {
   display: inline;
@@ -163,6 +167,7 @@ nav .nav ul li .nav-list::after {
   font-weight: 600;
   letter-spacing: 2.5px;
   font-size: 14px;
+  font-family: Montserrat;
 }
 .about .about-logo .about-line .about-text a {
   color: #fff;
@@ -172,6 +177,7 @@ nav .nav ul li .nav-list::after {
   max-width: 940px;
   font-weight: 300;
   text-align: center;
+  font-family: Montserrat;
 }
 .about .about-main {
   width: 1160px;
@@ -201,6 +207,9 @@ nav .nav ul li .nav-list::after {
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  white-space: pre-line;
 }
 .about .about-main .about-item .about-content .about-content-trio {
   width: 0;
@@ -232,6 +241,15 @@ nav .nav ul li .nav-list::after {
 .about .about-main .about-item .about-content .nirvana {
   background-image: url(../../images/homepage/nirvana.jpg);
   background-position: 0 70%;
+}
+.about .about-main .about-item a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.about .about-main .about-item a:hover {
+  background-color: gray;
+  opacity: 0.3;
 }
 .about .about-main .about-item .about-content-revers {
   -webkit-box-orient: horizontal;
