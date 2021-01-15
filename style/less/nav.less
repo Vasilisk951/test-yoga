@@ -154,7 +154,7 @@ nav {
             
            }
            .about-text-bot{
-                margin: 50px auto 0 auto;
+                margin: 50px auto 50px auto;
                 max-width: 940px;
                 font-weight: 300;
                 text-align: center;
@@ -164,7 +164,7 @@ nav {
     }
     .about-main {
         width: 1160px;
-        margin: 50px auto 0;
+        margin: 0 auto;
         .about-item {
             display: flex;
             width: 100%;
@@ -181,7 +181,7 @@ nav {
                     text-align: center;
                     padding: 10px;
                     box-sizing: border-box;
-                    font-family: Montserrat;
+                    font-family: 'Montserrat' sans-serif;
                     text-transform: uppercase;
                     white-space: pre-line;
                 }
@@ -275,7 +275,7 @@ nav {
             
            }
            .start-text-bot{
-                margin: 50px auto 0 auto;
+                margin: 50px auto 50px auto;
                 max-width: 940px;
                 font-weight: 300;
                 text-align: center;
@@ -288,6 +288,7 @@ nav {
             .start-conteiner {
                 width: 1160px;
                 margin: 0 auto;
+                padding: 70px 0;
                 display: flex;
                 flex-wrap: nowrap;
                 justify-content: space-between;
@@ -295,20 +296,32 @@ nav {
             .start-item {
                 width: 260px;
                 height: 400px;
-                white-space: pre-line;
                 position: relative;
-                    .start-name {
-                        
-                }
-            }
-            a {
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                color: #FFF;
-                text-transform: uppercase;
-                font-weight: 500;
-                font-family: Montserrat;
+                display: flex;
+                justify-content: center;
+                    img {
+                        width: 260px;
+                        height: 400px;
+                    }
+                    .start-item-link {
+                        position: absolute;
+                        bottom: 10%;
+                        text-transform: uppercase;
+                        white-space: pre-line;
+                        text-align: center;
+                        color: #fff;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 500;
+                    }
+                    .start-item-link__bg {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        transition: all 0.3s ease;
+                    }
+                    .start-item-link__bg:hover  {
+                        background: rgba(0, 0, 0, 0.2);
+                    }
             }
         }
     }

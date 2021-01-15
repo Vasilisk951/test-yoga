@@ -173,7 +173,7 @@ nav .nav ul li .nav-list::after {
   color: #fff;
 }
 .about .about-logo .about-line .about-text-bot {
-  margin: 50px auto 0 auto;
+  margin: 50px auto 50px auto;
   max-width: 940px;
   font-weight: 300;
   text-align: center;
@@ -181,7 +181,7 @@ nav .nav ul li .nav-list::after {
 }
 .about .about-main {
   width: 1160px;
-  margin: 50px auto 0;
+  margin: 0 auto;
 }
 .about .about-main .about-item {
   display: -webkit-box;
@@ -207,7 +207,7 @@ nav .nav ul li .nav-list::after {
   padding: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: Montserrat;
+  font-family: 'Montserrat' sans-serif;
   text-transform: uppercase;
   white-space: pre-line;
 }
@@ -298,7 +298,7 @@ nav .nav ul li .nav-list::after {
   color: #fff;
 }
 .start .start-logo .start-line .start-text-bot {
-  margin: 50px auto 0 auto;
+  margin: 50px auto 50px auto;
   max-width: 940px;
   font-weight: 300;
   text-align: center;
@@ -310,6 +310,7 @@ nav .nav ul li .nav-list::after {
 .start .start-main .start-conteiner {
   width: 1160px;
   margin: 0 auto;
+  padding: 70px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -322,15 +323,35 @@ nav .nav ul li .nav-list::after {
 .start .start-main .start-conteiner .start-item {
   width: 260px;
   height: 400px;
-  white-space: pre-line;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.start .start-main .start-conteiner a {
+.start .start-main .start-conteiner .start-item img {
+  width: 260px;
+  height: 400px;
+}
+.start .start-main .start-conteiner .start-item .start-item-link {
+  position: absolute;
+  bottom: 10%;
+  text-transform: uppercase;
+  white-space: pre-line;
+  text-align: center;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.start .start-main .start-conteiner .start-item .start-item-link__bg {
   position: absolute;
   width: 100%;
   height: 100%;
-  color: #FFF;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-family: Montserrat;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.start .start-main .start-conteiner .start-item .start-item-link__bg:hover {
+  background: rgba(0, 0, 0, 0.2);
 }
